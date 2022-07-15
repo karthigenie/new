@@ -1,0 +1,116 @@
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    transition: transform .2s; 
+}
+.caption {
+    display: block;
+}
+/* button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+} */
+
+.modal-container {
+	margin-top: 240px !important;
+	margin-left: -65px !important;
+  }
+  
+  .title {
+	color: rgb(5, 13, 13);
+  }
+  
+  .modal-contant {
+	background-color: #cfd2d7 !important;
+	width: 100% !important;
+	height: 100% !important;
+	display: flex;
+	/* margin-top: 230px; */
+	align-items: center;
+	justify-content: center;
+  }
+  .icon {
+	height: 80px;
+	width: 80px;
+	/* color: rgb(46, 45, 45); */
+	color: #65686e;
+	padding: 10px;
+  }
+  .modal.show .modal-dialog {
+	display: flex;
+	align-items: center !important;
+	justify-content: center !important;
+  }
+  .choose-file {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 3px;
+	/* background-color: rgb(59, 87, 77); */
+	height: 50px;
+	border-radius: 5px;
+	background-color: black;
+  }
+  /* .modal-form {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  height: 500px !important;
+	  width: 500px !important;
+	} */
+  
+  .message {
+	width: 450px !important;
+	margin-bottom: 0 !important;
+	border: none !important;
+  }
+  
+  .send-icon {
+	width: 30px !important;
+	height: 20px !important;
+  }
+  
+  .input-video {
+	display: flex !important;
+	/* background-color: rgb(4, 8, 7); */
+	color: whitesmoke;
+	align-items: center !important;
+	height: 100% !important;
+	width: 100% !important;
+	justify-content: center !important;
+  }
+  
+  input {
+	width: 100% !important;
+  }
+  
+  .modal-tag {
+	height: 40px;
+	width: 10px;
+	margin-top: 50px !important;
+	border: none;
+	padding: 6px;
+  }
+  
+  .footer-button {
+	justify-content: space-between !important;
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.home {
+	  width: 100vh;
+	}
+	.post-icon {
+	  width: 380px !important;
+	  margin: 10px !important;
+	  margin-left: auto;
+	  padding: 5px !important;
+	}
+  }
+  
