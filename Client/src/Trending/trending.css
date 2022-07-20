@@ -1,0 +1,28 @@
+.trenditem {
+    background-color: #021935;
+    width: auto;
+    height: 1000px;
+  }
+  
+  .trending-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .trending-card {
+    background: rgb(39, 80, 244) !important;
+    width: 190px !important;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    /* padding: 2rem; */
+    text-align: center;
+    transition: all 400ms ease;
+    justify-content: center;
+  }
+  
+  .trending__card:hover {
+    background: transparent;
+    border-color: black !important;
+    cursor: default;
+  }
