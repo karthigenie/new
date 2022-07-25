@@ -1,0 +1,152 @@
+.trenditem {
+  background-color: #021935;
+  width: auto;
+  height: 1000px;
+}
+
+.trending-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.trending-card {
+  /* background: rgb(39, 80, 244) !important; */
+  background-color: #0a1524 !important;
+  width: fit-content !important;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  margin-top: 15px;
+  text-align: center;
+  transition: all 400ms ease;
+  justify-content: center;
+  padding: 8px;
+  margin: 15px;
+}
+
+.trending__card:hover {
+  background: transparent;
+  border-color: black !important;
+  cursor: default;
+}
+
+.card {
+  gap: 0.5rem !important;
+  margin-right: 20px;
+}
+
+.avatar {
+  padding: 10px !important;
+  width: 80px !important;
+  height: 75px !important;
+  object-fit: cover !important;
+  cursor: pointer;
+}
+
+.card-container {
+  width: 80px;
+  min-height: fit-content;
+}
+
+.card-header {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+
+.card-details {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px;
+  height: 30px !important;
+}
+
+.trending-title {
+  padding: 5px !important;
+  margin-bottom: 20px !important;
+  margin-right: 40rem !important;
+}
+
+.trending-button {
+  background-color: white !important;
+  color: #01070f !important;
+  font-size: 13px !important;
+}
+
+.details {
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+/* 
+.popupModal {
+  width: 350px;
+  height: fit-content;
+  display: flex;
+  margin-left: 600px;
+  margin-top: 200px;
+  position: fixed !important;
+}
+
+.popup-item {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.popuplist {
+  text-align: center !important;
+  letter-spacing: 1px;
+  margin-top: 20px !important;
+  margin-bottom: 5px !important;
+  width: 380px !important;
+  border: none;
+  background-color: transparent !important;
+} */
+
+/* ---------------------------------------- Mobile Screen---------------------------  */
+
+@media only screen and (max-width: 768px) {
+  .trenditem {
+    height: fit-content !important;
+  }
+
+  .avatar {
+    display: none !important;
+  }
+
+  .trending-cards {
+    /* width: 140px !important; */
+    display: grid !important;
+    grid-template-rows: 1fr 1fr !important;
+    margin: 2px !important;
+  }
+
+  .card-container {
+    display: grid !important;
+    flex-direction: row !important;
+    width: fit-content !important;
+    margin-top: 10px !important;
+    margin-left: 20px !important;
+    width: 40px;
+    padding: 10px !important;
+    gap: 20px !important;
+  }
+
+  .card-header {
+    width: min-content !important;
+    margin-left: -10px;
+  }
+
+  .card-header {
+    width: min-content !important;
+    margin-left: -10px;
+  }
+
+  .detail-icon {
+    width: min-content !important;
+    margin: 5px !important;
+  }
+}
