@@ -1,0 +1,70 @@
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    transition: transform .1s; 
+}
+img {
+    width: 100px;
+    height: 100px;
+    transition: transform .2s; 
+
+}
+.item:hover{
+    transform: scale(1.2);
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.caption {
+    display: block;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    margin-left: 100px !important;
+  }
+
+  .empty-container{
+    margin-left: 140px !important;
+    height: 400px;
+    max-width: 500px !important;
+    background-color: #08366e;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    padding: 10px;
+  }
+
+  .container{
+    width: 100vw !important;
+    margin: 0px !important;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+ 
+
+  
